@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "strict": true,
+      "baseUrl": "./",
+      "skipLibCheck": true,
+      "outDir": "dist",
+      "removeComments": true,
+      "experimentalDecorators": true,
+      "target": "ES2020",
+      "emitDecoratorMetadata": true,
+      "moduleResolution": "node",
+      "importHelpers": true,
+      "allowSyntheticDefaultImports": true,
+      "types": [
+        "node",
+      ],
+  
+      "lib": [
+        "ES2021.String"
+        ],
+      "typeRoots": [
+        "node_modules/@types"
+      ]
+    },
+    "include": [
+      "./src/**/*.ts"
+    ],
+    "exclude": [
+      "./src/public/"
+    ]
+  }
+  
+  

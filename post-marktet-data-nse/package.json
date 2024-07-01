@@ -1,0 +1,23 @@
+{
+  "name": "post-marktet-data-nse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^20.14.9",
+    "@types/selenium-webdriver": "^4.1.24",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "selenium-webdriver": "^4.22.0"
+  }
+}

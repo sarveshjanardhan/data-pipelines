@@ -14,7 +14,7 @@ async function fetchData() {
 
   const csvText = await response.text();
   const fileName = livePreOpenTimeText || `ERROR_${new Date().toDateString()}`;
-  const filePath = `${fileName}.csv`;
+  const filePath = `data/${fileName}.csv`;
   await saveDataToFile(csvText, filePath);
 }
 
